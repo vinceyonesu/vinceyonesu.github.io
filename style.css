@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f1117;
+    color: #e6e6e6;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 35%;
+    background: #161b22;
+    padding: 40px;
+}
+
+.main-content {
+    width: 65%;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+h3 {
+    margin: 10px 0 5px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+.job, .edu {
+    margin-bottom: 20px;
+}
+
+span {
+    font-size: 14px;
+    color: #aaa;
+}
+
+i {
+    margin-right: 8px;
+}
+
+.profile p {
+    color: #aaa;
+}
